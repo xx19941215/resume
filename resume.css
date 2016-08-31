@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'iconfont';
+    src: url('iconfont/iconfont.eot'); 
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), 
+    url('iconfont/iconfont.woff') format('woff'), 
+    url('iconfont/iconfont.ttf') format('truetype'), 
+    url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+.title img {
+	display: block;
+	width: 120px;
+	border-radius: 50%;
+}
+.skills dd {
+	margin-left: 5px;
+}
+.skills dd i{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 18px;
+	color:#2989F0;
+	font-weight: 800;
+}
+.main a {
+	transition:all .2s linear;
+}
+.main a:hover {
+	background: #2989F0;
+	color: #fff;
+}
+.others p{
+	line-height: 2;
+}
